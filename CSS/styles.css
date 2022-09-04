@@ -1,0 +1,39 @@
+body {
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-box {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    height: 1319px;
+    margin: 40px;
+}
+
+.aside-bar {
+    background-color: #1E2939;
+}
+
+.fondo{
+    background: white;
+    position: absolute;
+    width: 1200px;
+    height: 1319px;
+    margin: 40px;
+    box-shadow: 6px 6px 20px;
+} 
+
+li{
+    line-height: 24px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.profession-description{
+    font-size: 14px;
+    font-weight: bold;
+}
