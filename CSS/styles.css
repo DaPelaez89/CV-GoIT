@@ -1,7 +1,11 @@
+/* Cuerpo html */
+
 body {
     background-color: #F5F7FA;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Contenido general */
 
 .main-box {
     position: absolute;
@@ -12,9 +16,61 @@ body {
     margin: 40px;
 }
 
+/* barra lateral */
+
 .aside-bar {
     background-color: #1E2939;
 }
+
+/* cuadro de contacts */
+
+.contacts-box, .skills-box, .soft-skills-box {
+    color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+/* titulo contactos */
+
+.contacts-title {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+/* tipo de contacto */
+
+.contact-type {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* información de contacto */
+
+.contact-info {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* lista skills y soft skills */
+
+.skills-list, .soft-skills-list {
+    padding: 0;
+    padding-left: 20px;
+}
+
+/* lista soft skills */
+
+ .skills-list > li, .soft-skills-list > li {
+    color: #FB6D3A;
+}
+
+.elemento-lista {
+    color: white;
+}
+
+/* cuadro blanco de fondo */
 
 .fondo{
     background: white;
@@ -25,15 +81,25 @@ body {
     box-shadow: 6px 6px 20px;
 } 
 
+/* interlineado de las listas */
+
 li{
     line-height: 24px;
 }
+
+/* descripción del perfil */
 
 .description {
     margin-bottom: 40px;
 }
 
+
+
 .profession-description{
     font-size: 14px;
     font-weight: bold;
+}
+
+.aside-bar {
+    padding: 40px 0;
 }
