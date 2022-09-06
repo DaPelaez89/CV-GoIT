@@ -5,6 +5,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* cuadro blanco de fondo */
+
+.fondo{
+    background: white;
+    position: absolute;
+    width: 1200px;
+    height: 1319px;
+    margin: 40px;
+    box-shadow: 6px 6px 20px;
+} 
+
 /* Contenido general */
 
 .main-box {
@@ -20,6 +31,7 @@ body {
 
 .aside-bar {
     background-color: #1E2939;
+    padding: 40px 0;
 }
 
 /* cuadro de contacts */
@@ -38,16 +50,9 @@ body {
     line-height: 27px;
 }
 
-/* tipo de contacto */
+/* tipo de contacto e información de contacto */
 
-.contact-type {
-    font-size: 14px;
-    line-height: 24px;
-}
-
-/* información de contacto */
-
-.contact-info {
+.contact-type, .contact-info {
     color: white;
     font-size: 14px;
     line-height: 24px;
@@ -56,7 +61,6 @@ body {
 /* lista skills y soft skills */
 
 .skills-list, .soft-skills-list {
-    padding: 0;
     padding-left: 20px;
 }
 
@@ -70,36 +74,119 @@ body {
     color: white;
 }
 
-/* cuadro blanco de fondo */
-
-.fondo{
-    background: white;
-    position: absolute;
-    width: 1200px;
-    height: 1319px;
-    margin: 40px;
-    box-shadow: 6px 6px 20px;
-} 
-
 /* interlineado de las listas */
 
 li{
     line-height: 24px;
 }
 
+/* main information */
+
+.main-info {
+    padding: 40px 88px;
+}
+
 /* descripción del perfil */
 
 .description {
-    margin-bottom: 40px;
+    width: 400px;
+
 }
 
+/* fuente profesion */
 
-
-.profession-description{
+.profession-name{
     font-size: 14px;
     font-weight: bold;
 }
 
-.aside-bar {
-    padding: 40px 0;
+/* fuente nombre */
+
+.name {
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25x;
+}
+
+/* formato titulos */
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+/* proyectos */
+
+.projects {
+    width: 485px;
+    height: 107px;
+    margin-bottom: 50px;
+}
+
+.projects-list {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.project-link {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.project-guide-lines {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+}
+
+/* experiencia laboral */
+
+.job, .company {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.company {
+    color: #FB6D3A;
+}
+
+.time-experience {
+    color: #A8A8A8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.job-functions {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 217px;
+    margin-top: 12px;
+}
+
+/* Educación */
+
+.institution {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.career {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
 }
